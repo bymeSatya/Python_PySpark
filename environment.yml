@@ -1,0 +1,10 @@
+name: pyspark-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - openjdk=11  # Include Java (OpenJDK 11 is recommended for Spark)
+  - pyspark
+  - pandas
+  - numpy
