@@ -1,5 +1,5 @@
-#import pyspark
 import streamlit as st
+import pyspark
 
 number = st.slider("Pick a number", 0, 100)
 
